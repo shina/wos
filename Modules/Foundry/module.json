@@ -1,0 +1,11 @@
+{
+    "name": "Foundry",
+    "alias": "foundry",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Foundry\\App\\Providers\\FoundryServiceProvider"
+    ],
+    "files": []
+}

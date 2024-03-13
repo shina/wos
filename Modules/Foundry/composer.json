@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/foundry",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Foundry\\": "",
+            "Modules\\Foundry\\App\\": "app/",
+            "Modules\\Foundry\\Database\\Factories\\": "database/factories/",
+            "Modules\\Foundry\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Foundry\\Tests\\": "tests/"
+        }
+    }
+}
