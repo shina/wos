@@ -66,7 +66,7 @@ return [
      * You can skip these by adding a `--skip-{name}` flag to the command.
      */
     'after' => [
-         'rename-folder' => 'mv dist doc',
+         'rename-folder' => 'mv dist docs',
     ],
 
 ];
